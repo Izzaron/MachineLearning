@@ -1,0 +1,65 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.33927.289
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NeuralNetwork", "NeuralNetwork\NeuralNetwork.vcxproj", "{FCDE2DC1-5D10-439F-BD9B-D708AFB046DC}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F0D3534C-428B-4B59-B679-F6DF7A6064DC} = {F0D3534C-428B-4B59-B679-F6DF7A6064DC}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DigitRecognizer", "DigitRecognizer\DigitRecognizer.csproj", "{FA1AFC35-05B1-4432-828B-72DFEC7525A6}"
+	ProjectSection(ProjectDependencies) = postProject
+		{FCDE2DC1-5D10-439F-BD9B-D708AFB046DC} = {FCDE2DC1-5D10-439F-BD9B-D708AFB046DC}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NumericalGPU", "NumericalGPU\NumericalGPU.vcxproj", "{F0D3534C-428B-4B59-B679-F6DF7A6064DC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FCDE2DC1-5D10-439F-BD9B-D708AFB046DC}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{FCDE2DC1-5D10-439F-BD9B-D708AFB046DC}.Debug|x64.ActiveCfg = Debug|x64
+		{FCDE2DC1-5D10-439F-BD9B-D708AFB046DC}.Debug|x64.Build.0 = Debug|x64
+		{FCDE2DC1-5D10-439F-BD9B-D708AFB046DC}.Debug|x86.ActiveCfg = Debug|Win32
+		{FCDE2DC1-5D10-439F-BD9B-D708AFB046DC}.Debug|x86.Build.0 = Debug|Win32
+		{FCDE2DC1-5D10-439F-BD9B-D708AFB046DC}.Release|Any CPU.ActiveCfg = Release|Win32
+		{FCDE2DC1-5D10-439F-BD9B-D708AFB046DC}.Release|x64.ActiveCfg = Release|x64
+		{FCDE2DC1-5D10-439F-BD9B-D708AFB046DC}.Release|x64.Build.0 = Release|x64
+		{FCDE2DC1-5D10-439F-BD9B-D708AFB046DC}.Release|x86.ActiveCfg = Release|Win32
+		{FCDE2DC1-5D10-439F-BD9B-D708AFB046DC}.Release|x86.Build.0 = Release|Win32
+		{FA1AFC35-05B1-4432-828B-72DFEC7525A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA1AFC35-05B1-4432-828B-72DFEC7525A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA1AFC35-05B1-4432-828B-72DFEC7525A6}.Debug|x64.ActiveCfg = Debug|x64
+		{FA1AFC35-05B1-4432-828B-72DFEC7525A6}.Debug|x64.Build.0 = Debug|x64
+		{FA1AFC35-05B1-4432-828B-72DFEC7525A6}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{FA1AFC35-05B1-4432-828B-72DFEC7525A6}.Debug|x86.Build.0 = Debug|Any CPU
+		{FA1AFC35-05B1-4432-828B-72DFEC7525A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA1AFC35-05B1-4432-828B-72DFEC7525A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA1AFC35-05B1-4432-828B-72DFEC7525A6}.Release|x64.ActiveCfg = Release|x64
+		{FA1AFC35-05B1-4432-828B-72DFEC7525A6}.Release|x64.Build.0 = Release|x64
+		{FA1AFC35-05B1-4432-828B-72DFEC7525A6}.Release|x86.ActiveCfg = Release|Any CPU
+		{FA1AFC35-05B1-4432-828B-72DFEC7525A6}.Release|x86.Build.0 = Release|Any CPU
+		{F0D3534C-428B-4B59-B679-F6DF7A6064DC}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{F0D3534C-428B-4B59-B679-F6DF7A6064DC}.Debug|x64.ActiveCfg = Debug|x64
+		{F0D3534C-428B-4B59-B679-F6DF7A6064DC}.Debug|x64.Build.0 = Debug|x64
+		{F0D3534C-428B-4B59-B679-F6DF7A6064DC}.Debug|x86.ActiveCfg = Debug|x64
+		{F0D3534C-428B-4B59-B679-F6DF7A6064DC}.Release|Any CPU.ActiveCfg = Release|x64
+		{F0D3534C-428B-4B59-B679-F6DF7A6064DC}.Release|x64.ActiveCfg = Release|x64
+		{F0D3534C-428B-4B59-B679-F6DF7A6064DC}.Release|x64.Build.0 = Release|x64
+		{F0D3534C-428B-4B59-B679-F6DF7A6064DC}.Release|x86.ActiveCfg = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {025330E3-3FD2-4826-A40A-9796ED73E1AA}
+	EndGlobalSection
+EndGlobal
